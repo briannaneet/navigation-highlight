@@ -9,6 +9,7 @@ html {
 
 header {
   background-color: #ffe500;
+  padding: .75em;
 }
 
 h1, h2 {
@@ -19,12 +20,37 @@ h1, h2 {
 
 h1 {
   font-size: 3rem;
+  text-align: center;
+  margin: 0;
 }
 
 nav a {
   background-color: #b2a212;
   color: #fff;
-  font-size: 1.875rem;
+  font-size: 1.125rem;
+  border-radius: 4px;
+  text-decoration: none;
+  margin: 0;
+  text-align: center;
+  padding: .2em .5em .3em;
+}
+
+nav a:hover {
+  background-color: #cc1465;
+}
+
+.current {
+  background-color: #cc1465;
+}
+
+li {
+  display: inline-block;
+}
+
+ul {
+  padding-left: 0;
+  margin: 0;
+  text-align: center;
 }
 
 p {
