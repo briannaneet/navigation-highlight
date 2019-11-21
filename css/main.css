@@ -1,5 +1,6 @@
 html {
   box-sizing: border-box;
+  line-height: 1.5;
 }
 
 *, *::before, *::after {
@@ -8,7 +9,6 @@ html {
 
 header {
   background-color: #ffe500;
-  padding: .75em;
 }
 
 h1, h2 {
@@ -26,13 +26,13 @@ h1 {
 nav a {
   background-color: #b2a212;
   color: #fff;
-  font-size: 1.125rem;
   border-radius: 4px;
   text-decoration: none;
   text-align: center;
-  padding: .75rem;
-  margin-top: .3em;
+  padding: .2em .5em .3em;
+  margin-bottom: .3rem;
   display: inline-block;
+  font-size: 1.125rem;
 }
 
 nav a:hover {
@@ -55,7 +55,6 @@ ul {
 
 p {
   color: #2f2d13;
-  font-size: 1.125rem;
 }
 
 body {
@@ -72,4 +71,13 @@ footer {
   background-color: #ffe500;
   text-align: center;
   padding: .75em;
+}
+
+small {
+  font-size: .75rem;
+}
+
+main {
+  padding-left: .75em;
+  padding-right: .75em;
 }
