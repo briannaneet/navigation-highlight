@@ -1,6 +1,5 @@
 html {
   box-sizing: border-box;
-  font-family: Georgia, serif;
 }
 
 *, *::before, *::after {
@@ -30,9 +29,10 @@ nav a {
   font-size: 1.125rem;
   border-radius: 4px;
   text-decoration: none;
-  margin: 0;
   text-align: center;
-  padding: .2em .5em .3em;
+  padding: .75rem;
+  margin-top: .3em;
+  display: inline-block;
 }
 
 nav a:hover {
@@ -56,6 +56,16 @@ ul {
 p {
   color: #2f2d13;
   font-size: 1.125rem;
+}
+
+body {
+  font-family: Georgia, serif;
+  margin: 0;
+}
+
+img {
+  width: 100%;
+  display: block;
 }
 
 footer {
